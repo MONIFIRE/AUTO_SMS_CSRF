@@ -32,7 +32,7 @@ else:
          print(time.strftime(" NOW TIME - [ %H:%M:%S ] : "+f"{SMS}"))
 
 #SEND สเเปม
-if _name_ == "_main_":
+if __name__ == "__main__":
     for send in range(int(spam)):
         time.sleep(1)
         thread = threading.Thread(target=A(f'{num}'))
