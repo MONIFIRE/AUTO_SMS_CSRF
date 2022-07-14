@@ -29,7 +29,7 @@ else:
          SEND_TOKEN = bs(API_WEB,'html.parser')
          TOKEN = SEND_TOKEN.find("input",attrs={"name":"_csrf"})
          SMS = SEND.post('https://th.zmyhome.com/api/ajax/sms-otp',headers={"x-csrf-token": TOKEN['value'],"content-type": "application/x-www-form-urlencoded; charset=UTF-8"},data='tel='+phone+'&userId=').text
-         print(time.strftime(" NOW TIME - [ %H:%M:%S ] : "+SMS))
+         print(time.strftime(" NOW TIME - [ %H:%M:%S ] : "+f"{SMS}"))
 
 #SEND สเเปม
 if _name_ == "_main_":
