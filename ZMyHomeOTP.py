@@ -6,11 +6,7 @@ from user_agent import generate_user_agent
 
 #decorate โครงสร้าง
 os.system('clear')
-print("  _
-_  _   _  _
-_  _
-_
-_  ")
+print("  ___ ___  _   __  __ __  __ ___ ___  ")
 print(" / __| _ \/_\ |  \/  |  \/  | __| _ \ ")
 print(" \__ \  _/ _ \| |\/| | |\/| | _||   / ")
 print(" |___/_|/_/ \_\_|  |_|_|  |_|___|_|_\ ")
